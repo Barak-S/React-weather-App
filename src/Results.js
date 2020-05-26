@@ -32,7 +32,7 @@ import './App.css'
         return(
             <div>
                 {this.props.weatherResult.name?
-                <div>
+                <div style={{border: "2px solid black", margin: "7%", marginTop: 15}}>
                     <h4>Results</h4>
                     <h1>{this.props.weatherResult.name}</h1>
                     <h2>{this.props.weatherResult.sys.country}</h2>
